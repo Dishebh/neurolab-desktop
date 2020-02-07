@@ -26,3 +26,18 @@ _**Used Libraries**_:<br><br>
 **jfreechart**: LGPL<br>
 **log4j**: Apache License V2<br>
 **JavaOSC**: BSD 3-Clause<br>
+
+# Set up (Ubuntu 19.04)
+
+### Dependencies
+1. Java JDK & JRE
+2. Maven
+3. Java IDE that supports Maven
+
+[Recommended tutorial to install all these dependencies](https://websiteforstudents.com/how-to-install-netbeans-on-ubuntu-16-04-17-10-18-04)
+
+### Build Neurolab
+1. Fork & clone the Neurolab-desktop repo to the local machine.
+2. [Import Neurolab-desktop as an existing Maven project in Netbeans](https://stackoverflow.com/questions/20846641/import-a-maven-project-into-netbeans)
+3. Build the project in Netbeans (F11)
+4. Run and explore Neurolab (F6)
