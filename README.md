@@ -54,7 +54,7 @@ You should then see NetBeans installation wizard started. The default choices sh
 ### Build Neurolab
 1. Fork & clone the Neurolab-desktop repo to the local machine.
 2. Import Neurolab-desktop as an existing Maven project in Netbeans
-  * In Netbeans, File->New Project->Select maven in left Pane -> Select Project with existing POM on right pane and finish.
-  * Now you will be asked to open a eclipse project, just open it and that's it.
+    * In Netbeans, File->New Project->Select maven in left Pane -> Select Project with existing POM on right pane and finish.
+    * Now you will be asked to open a eclipse project, just open it and that's it.
 3. Build the project in Netbeans (F11)
 4. Run and explore Neurolab (F6)
