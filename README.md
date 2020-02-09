@@ -34,10 +34,27 @@ _**Used Libraries**_:<br><br>
 2. Maven
 3. Java IDE that supports Maven
 
-[Recommended tutorial to install all these dependencies](https://websiteforstudents.com/how-to-install-netbeans-on-ubuntu-16-04-17-10-18-04)
+### Install NetBeans on Ubuntu 19.04
+1. **Install Oracle Java JDK 8**
+`sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install oracle-java8-installer
+sudo apt install oracle-java8-set-default`
+That completes your installation. You can check you java version by running following command.
+`javac -version`
+
+2. **Downloading NetBeans**
+`cd /tmp && wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh`
+
+3. **Install NetBeans**
+`chmod +x netbeans-8.2-linux.sh 
+sudo ./netbeans-8.2-linux.sh`
+You should then see NetBeans installation wizard started. The default choices should be just fine. You don’t have to customize too much. However, if you know what you’re doing, you can customize all you want.
 
 ### Build Neurolab
 1. Fork & clone the Neurolab-desktop repo to the local machine.
-2. [Import Neurolab-desktop as an existing Maven project in Netbeans](https://stackoverflow.com/questions/20846641/import-a-maven-project-into-netbeans)
+2. Import Neurolab-desktop as an existing Maven project in Netbeans
+  * In Netbeans, File->New Project->Select maven in left Pane -> Select Project with existing POM on right pane and finish.
+  * Now you will be asked to open a eclipse project, just open it and that's it.
 3. Build the project in Netbeans (F11)
 4. Run and explore Neurolab (F6)
